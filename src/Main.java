@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int a = 0; //денег на счету
-        int b = 1500; //пополнение счета
+        int money = 0; //денег на счету
+        int refill = 1500; //пополнение счета
         int bonus = 0;
 
 
-        if (b >= 1000) {
-            bonus = b / 100;
+        if (refill >= 1000) {
+            bonus = refill / 100;
         }
 
-        int i = a + b + bonus;
+        int i = money + refill + bonus;
 
 
         System.out.println("На вашем счету " + i);
