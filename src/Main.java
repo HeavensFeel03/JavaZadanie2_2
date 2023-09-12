@@ -9,10 +9,10 @@ public class Main {
             bonus = refill / 100;
         }
 
-        int i = money + refill + bonus;
+        int summa = money + refill + bonus;
 
 
-        System.out.println("На вашем счету " + i);
+        System.out.println("На вашем счету " + summa);
         if (bonus > 0) {
             System.out.println("Бонусных рублей " + bonus);
         }
